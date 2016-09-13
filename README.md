@@ -20,11 +20,11 @@ Requirements
             forcedStart=TRUE
             autoConfirm=TRUE
 
-          Just choose the download folder you want. The plugin will read this file, and create a subfolder "added", and move the file
-          inside that folder, renamed to "added/whatever.crawljob.1". Inside that folder, a copy of all downloaded .dlc files
-          will remain. JDownloaded will automatically start downloading all files defined in the .dlc to the defined downloadFolder.
-
-          At least in osx, you can only choose the name of the folderwatch folder, but not it's location, which is "~/bin/JDownloader x.y"
+        - Choose hoose the download folder you want and set it on downloadFolder var.
+        - The plugin will read this file, create a subfolder "added", and move the file inside that folder, renamed to "added/whatever.crawljob.1".
+        - Inside that folder, a copy of all downloaded .dlc files will remain.
+        - JDownloaded will automatically start downloading all files defined in the .dlc to the defined downloadFolder.
+        - At least in osx, you can only choose the name of the folderwatch folder, but not it's location, which is "~/bin/JDownloader x.y"
 
 Features
 ---------
@@ -42,7 +42,8 @@ Improvements
 
 * Filter by quality, language, subtitles
 
-
+License
+-------
 
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
